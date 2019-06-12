@@ -8,16 +8,18 @@ Base system for Nodejs REST API. Use as base system for future API projects.
 
 '''
 
-/
-|
-+----app/
-        db.js
-        model.js
-        controller.js
-        app.js
+    /
+    ├── README.md
+    ├── app
+    │ ├── app.js
+    │ ├── controller.js
+    │ ├── db.js
+    │ └── model.js
+    ├── package.json
+    └── server.js
 
-     server.js
 
+  
 '''
 
 ### Prerequisites
