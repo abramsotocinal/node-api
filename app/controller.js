@@ -5,8 +5,12 @@ var bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
 
-// Load modules here
-
+// Load model(s) here
+/* eg
+    var mongoose = require('mongoose');
+    var model = require('./model');
+    */
+   
 //add routes here; '/' has been added  as a default
 router.get('/', function (req, res) {
 
